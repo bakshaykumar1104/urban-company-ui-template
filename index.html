@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0d0f">
+  <title>Urban Company Mobile UI Template</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="studio">
+    <aside class="library" aria-label="Template screens">
+      <div class="brand-lockup">
+        <span class="brand-mark">UC</span>
+        <div><strong>Urban Company</strong><small>Editable UI template</small></div>
+      </div>
+      <label class="route-search"><span>⌕</span><input id="routeSearch" placeholder="Find a screen"></label>
+      <nav id="screenLibrary"></nav>
+      <div class="library-note">360 × 800 Android frame<br>System status bar intentionally removed</div>
+    </aside>
+
+    <section class="workspace">
+      <header class="workspace-bar">
+        <div>
+          <span class="eyebrow">SCREEN PREVIEW</span>
+          <h1 id="screenTitle">Phone number</h1>
+        </div>
+        <div class="workspace-actions">
+          <button class="toolbar-btn" id="resetBtn">Reset prototype</button>
+          <button class="toolbar-btn primary" data-go="home">Open home</button>
+        </div>
+      </header>
+
+      <div class="canvas">
+        <div class="device" aria-label="Mobile app prototype">
+          <div class="safe-area"></div>
+          <main id="app" class="app-screen" tabindex="-1"></main>
+          <div id="toast" class="toast" role="status"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+  <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+</body>
+</html>
