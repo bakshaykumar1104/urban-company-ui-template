@@ -1,4 +1,5 @@
-const ASSET = name => `assets/${name}`;
+// GitHub upload keeps these static assets at repository root.
+const ASSET = name => `${name}`;
 
 const screenGroups = [
   { name:'Authentication & location', screens:[
